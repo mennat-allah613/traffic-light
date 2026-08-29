@@ -1,0 +1,37 @@
+main
+	west_green
+	show_west
+		Div_16x16_S
+			Div_16x16_S_L
+	show_south
+		Div_16x16_S
+			Div_16x16_S_L
+	west_yellow
+	south_green
+	south_yellow
+	manual_mode
+		show_west
+			Div_16x16_S
+				Div_16x16_S_L
+		show_south
+			Div_16x16_S
+				Div_16x16_S_L
+		west_to_south
+			west_yellow
+			show_west
+				Div_16x16_S
+					Div_16x16_S_L
+			show_south
+				Div_16x16_S
+					Div_16x16_S_L
+			south_green
+		south_to_west
+			south_yellow
+			show_west
+				Div_16x16_S
+					Div_16x16_S_L
+			show_south
+				Div_16x16_S
+					Div_16x16_S_L
+			west_green
+interrupt
